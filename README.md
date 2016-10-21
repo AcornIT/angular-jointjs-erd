@@ -75,7 +75,7 @@ $scope.styleOpts = {
 }
 ```
 **Elements that can be styled:**
-| Element       | Description                 |
+| Element          | Description                  |
 |------------------|------------------------------|
 | tableHeader      | table name container         |
 | tableHeaderText  | table name container text    |
