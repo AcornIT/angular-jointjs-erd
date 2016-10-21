@@ -1,7 +1,7 @@
 # **angular-jointjs-erd**
 ----
 
-[![N|Solid](http://www.acorn.ro/wp-content/uploads/2015/10/Acorn-IT-bg-transparent3.png)](http://www.acorn.ro)
+[![acorn logo](http://www.acorn.ro/wp-content/uploads/2015/10/Acorn-IT-bg-transparent3.png)](http://www.acorn.ro)
 
 angular-jointjs-erd is essentially an [Angular.js](http://www.angularjs.org) directive that displays a joint.js diagram of a given database structure.
 
@@ -84,7 +84,7 @@ $scope.styleOpts = {
 - linkLabelRect
 - linkLabelText
 
->Note: Elements are **NOT** styled using CSS properties. For a list of possible properties that can be applied to elements, visit [the jont.js documentation](http://resources.jointjs.com/docs/jointjs/v1.0/joint.html#specialAttributes).
+>Note: Elements are **NOT** styled using CSS properties. For a list of possible properties that can be applied to elements, visit [the >jont.js documentation](http://resources.jointjs.com/docs/jointjs/v1.0/joint.html#specialAttributes).
 ### Dependencies
 * [jQuery](http://www.jquery.com)
 * [Angular.js](http://www.angularjs.org)
