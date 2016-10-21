@@ -1,5 +1,5 @@
 {
-  "name": "angular-joint-erd",
+  "name": "angular-jointjs-erd",
   "version": "1.0.0",
   "author": {
     "name": "Radu Nicoara",
@@ -8,6 +8,10 @@
   "homepage": "http://www.acorn.ro",
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AcornIT/angular-jointjs-erd"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

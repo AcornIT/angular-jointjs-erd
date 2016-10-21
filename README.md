@@ -1,26 +1,26 @@
-# **angular-joint-erd**
+# **angular-jointjs-erd**
 ----
 
 [![N|Solid](http://www.acorn.ro/wp-content/uploads/2015/10/Acorn-IT-bg-transparent3.png)](http://www.acorn.ro)
 
-angular-joint-erd is essentially an [Angular.js](http://www.angularjs.org) directive that displays a joint.js diagram of a given database structure.
+angular-jointjs-erd is essentially an [Angular.js](http://www.angularjs.org) directive that displays a joint.js diagram of a given database structure.
 
 ## Installation
 
 #### Bower
 ```sh
-$ bower install --save angular-joint-erd
+$ bower install --save angular-jointjs-erd
 ```
 #### NPM
 ```sh
-$ npm install --save angular-joint-erd
+$ npm install --save angular-jointjs-erd
 ```
 Inject module dependency:
 ```javascript
-angular.module('MyModule', ['angular-joint-erd'])
+angular.module('MyModule', ['angular-jointjs-erd'])
 ```
 ### Usage
-angular-joint-erd uses the ng-model attribute to provide the database structure, so it's as easy as defining it inside your scope.
+angular-jointjs-erd uses the ng-model attribute to provide the database structure, so it's as easy as defining it inside your scope.
 ##### HTML
 Include the *diagram* directive in your page, using the standard *ng-model* attribute to provide the structure. 
 ```html
@@ -59,7 +59,7 @@ $scope.structure = {
 }
 ```
 #### Styling
-angular-joint-erd supports styling of table nodes and link labels using the *styling* attribute:
+angular-jointjs-erd supports styling of table nodes and link labels using the *styling* attribute:
 ```html
 <diagram ng-model="structure" styling="styleOpts"></diagram>
 ```
@@ -75,15 +75,14 @@ $scope.styleOpts = {
 }
 ```
 **Elements that can be styled:**
-| Element          | Description                  |
-|------------------|------------------------------|
-| tableHeader      | table name container         |
-| tableHeaderText  | table name container text    |
-| tableProperties  | table properties text        |
-| tableIndexes     | table indexes container      |
-| tableIndexesText | table indexes container text |
-| linkLabelRect    | link label container         |
-| linkLabelText    | link label text              |
+- tableHeader         
+- tableHeaderText
+- tableProperties
+- tablePropertiesText
+- tableIndexes
+- tableIndexesText
+- linkLabelRect
+- linkLabelText
 
 >Note: Elements are **NOT** styled using CSS properties. For a list of possible properties that can be applied to elements, visit [the jont.js documentation](http://resources.jointjs.com/docs/jointjs/v1.0/joint.html#specialAttributes).
 ### Dependencies
