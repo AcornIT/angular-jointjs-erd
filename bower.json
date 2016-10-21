@@ -1,0 +1,22 @@
+{
+  "name": "angular-joint-erd",
+  "main": "angular-joint-erd.js",
+  "authors": [
+    "Radu Nicoara <radu.nicoara@acorn.ro>"
+  ],
+  "description": "Angular.js directive for displaying joint.js diagrams",
+  "keywords": [
+    "angular",
+    "joint.js",
+    "diagram"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.acorn.ro",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "angular-joint-erd",
+  "version": "1.0.0",
+  "author": {
+    "name": "Radu Nicoara",
+    "email": "radu.nicoara@acorn.ro"
+  },
+  "homepage": "http://www.acorn.ro",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "underscore": "^1.8.3"
+  }
+}
