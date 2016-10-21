@@ -85,6 +85,8 @@ $scope.styleOpts = {
 - linkLabelText
 
 >Note: Elements are **NOT** styled using CSS properties. For a list of possible properties that can be applied to elements, visit [the >jont.js documentation](http://resources.jointjs.com/docs/jointjs/v1.0/joint.html#specialAttributes).
+
+
 ### Dependencies
 * [jQuery](http://www.jquery.com)
 * [Angular.js](http://www.angularjs.org)
