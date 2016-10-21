@@ -73,7 +73,7 @@ $scope.styleOpts = {
         fill: 'white'
     }
 }
-```
+``` 
 **Elements that can be styled:**
 - tableHeader         
 - tableHeaderText
